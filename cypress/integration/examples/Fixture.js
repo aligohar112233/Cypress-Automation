@@ -1,17 +1,12 @@
 
 import Home from "./pageObject/Home"
 describe('Test Suite', function () {
-
-
-
    before(function () {
       cy.visit("https://rahulshettyacademy.com/angularpractice/")
-
 
       cy.fixture('example').then(function (data) {
 
          this.data = data
-
       })
 
 
